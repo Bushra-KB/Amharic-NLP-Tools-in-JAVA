@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modules.IRM;
+package VSM;
 
 import Jama.Matrix;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import modules.preprocessing.Preprocessor;
-//import preprocessing.Preprocessor;
+import tools.Preprocessor;
+
 /**
  *
- * @author Busha
+ * @author Bushra
  */
 public class SentenceTermMatrix extends IRM {
     private Preprocessor input;
