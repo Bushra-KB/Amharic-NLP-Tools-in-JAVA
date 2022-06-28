@@ -38,7 +38,7 @@ public class SentenceTermMatrix extends IRM {
     public SentenceTermMatrix(Preprocessor p, int x){
         this.input=p;
         this.twm=x;
-        process();
+        this.process();
     }
 
     private void process() {
@@ -59,31 +59,31 @@ public class SentenceTermMatrix extends IRM {
         switch(this.twm){
             case 1:
                 // LTF method is selected
-                fillLTF();
+                this.fillLTF();
                 break;
             case 2:
                 // GTF method is selected
-                fillGTF();
+                this.fillGTF();
                 break;
             case 3:
                 // WP method is selected
-                fillWP();
+                this.fillWP();
                 break;
             case 4:
                 // IDF method is selected
-                fillIDF();
+                this.fillIDF();
                 break;
             case 5:
                 // LTF*GTF method is selected
-                fillLTF_GTF();
+                this.fillLTF_GTF();
                 break;
             case 6:
                 // TF-IDF method is selected
-                fillTF_IDF();
+                this.fillTF_IDF();
                 break;
             default:
                 // LTF method is selected as default method
-                fillLTF();
+                this.fillLTF();
                 break;   
         }
         
