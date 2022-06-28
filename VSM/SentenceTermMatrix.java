@@ -175,10 +175,10 @@ public class SentenceTermMatrix extends IRM {
         Matrix m1=new Matrix(n, t);
         Matrix m2=new Matrix(n, t);
         this.mainMatr=new Matrix(n, t);
-        fillLTF();
+        this.fillLTF();
         m1=mainMatr.copy();
         this.mainMatr=new Matrix(n, t);
-        fillGTF();
+        this.fillGTF();
         m2=mainMatr.copy();
         this.mainMatr=new Matrix(n, t);
         for(int i=0; i<n; i++){
@@ -199,10 +199,10 @@ public class SentenceTermMatrix extends IRM {
         Matrix m1=new Matrix(n, t);
         Matrix m2=new Matrix(n, t);
         this.mainMatr=new Matrix(n, t);
-        fillLTF();
+        this.fillLTF();
         m1=mainMatr.copy();
         this.mainMatr=new Matrix(n, t);
-        fillIDF();
+        this.fillIDF();
         m2=mainMatr.copy();
         this.mainMatr=new Matrix(n, t);
         for(int i=0; i<n; i++){
