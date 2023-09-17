@@ -4,7 +4,7 @@
 - Sentence Segmentation
 - Normalization
 
--- Character normalization 
+--Character normalization 
 -- Abbreviation substitution 
 - StopWord Removal
 - Named Entity Recognition 
