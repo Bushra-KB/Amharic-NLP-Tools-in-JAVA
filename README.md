@@ -3,7 +3,8 @@
 - Tokenization 
 - Sentence Segmentation
 - Normalization
- -- Character normalization 
- -- Abbreviation substitution 
+
+-- Character normalization 
+-- Abbreviation substitution 
 - StopWord Removal
 - Named Entity Recognition 
