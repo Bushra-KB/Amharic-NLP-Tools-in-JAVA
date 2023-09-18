@@ -8,4 +8,5 @@
    --Abbreviation substitution 
    --Strange char, word, symbole remove
 - StopWord Removal
+- Lemmatization
 - Named Entity Recognition 
