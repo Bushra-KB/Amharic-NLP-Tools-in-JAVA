@@ -9,4 +9,5 @@
    --Strange char, word, symbole remove
 - StopWord Removal
 - Lemmatization
+- Stemming 
 - Named Entity Recognition 
