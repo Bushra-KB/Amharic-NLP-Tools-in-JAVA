@@ -5,6 +5,7 @@
 - Normalization
 
    --Character normalization 
-   -- Abbreviation substitution 
+   --Abbreviation substitution 
+   --Strange char, word, symbole remove
 - StopWord Removal
 - Named Entity Recognition 
