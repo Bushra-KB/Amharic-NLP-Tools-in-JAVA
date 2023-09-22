@@ -16,3 +16,4 @@
 - Stemming 
 - Named Entity Recognition 
 - POS Tagging
+- Word-sense disambiguation
