@@ -15,3 +15,4 @@
 - Lemmatization
 - Stemming 
 - Named Entity Recognition 
+- POS Tagging
