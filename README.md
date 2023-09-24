@@ -19,3 +19,7 @@
 - Named Entity Recognition 
 - POS Tagging
 - Word-sense disambiguation
+• Co-reference resolutiony
+• Entity linking
+• Terminology extraction
+• Discourse parsing
