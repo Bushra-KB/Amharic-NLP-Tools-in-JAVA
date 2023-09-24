@@ -13,6 +13,7 @@
   -- Conversion of emoticons to words
   -- Conversion of emojis to words
 - StopWord Removal
+- Noun phrase chunking
 - Lemmatization
 - Stemming 
 - Named Entity Recognition 
