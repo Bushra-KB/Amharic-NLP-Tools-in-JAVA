@@ -2,6 +2,7 @@
 ## Lists of Amharic Text Preprocessing Tasks:
 - Tokenization 
 - Sentence Segmentation
+- Sentence boundary detection
 - Normalization
    --Character normalization 
    --Abbreviation substitution 
