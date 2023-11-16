@@ -1,4 +1,4 @@
-# Amharic NLP-Tools-in-JAVA
+# Amharic-NLP-Tools-in-JAVA
 ## Lists of Amharic Text Preprocessing Tasks:
 - Tokenization 
 - Sentence Segmentation
