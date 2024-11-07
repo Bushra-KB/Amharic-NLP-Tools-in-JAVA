@@ -33,28 +33,38 @@ This repository contains implementations of various Natural Language Processing 
 - **Language Modeling**: Building models to predict the next word in a sequence.
 - **Machine Translation**: Translating text from Amharic to other languages and vice versa.
 
+## Project Structure
+```
+amharic-nlp-tools-in-java/
+│
+├── README.md
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── nlp/
+│   │           ├── Tokenizer.java
+│   │           ├── SentenceSegmenter.java
+│   │           ├── SentenceBoundaryDetector.java
+│   │           ├── Normalizer.java
+│   │           ├── StopWordRemover.java
+│   │           ├── NounPhraseChunker.java
+│   │           ├── Lemmatizer.java
+│   │           ├── Stemmer.java
+│   │           ├── NER.java
+│   │           ├── POSTagger.java
+│   │           ├── WordSenseDisambiguator.java
+│   │           ├── CoReferenceResolver.java
+│   │           ├── EntityLinker.java
+│   │           ├── TerminologyExtractor.java
+│   │           ├── DiscourseParser.java
+│   │           ├── SentimentAnalyzer.java
+│   │           ├── TextClassifier.java
+│   │           ├── LanguageModel.java
+│   │           └── Translator.java
+│   └── test/
+│       └── java/
+│           └── nlp/
+│               └── NLPToolsTest.java
 
-## Lists of Amharic Text Preprocessing Tasks:
-- Tokenization 
-- Sentence Segmentation
-- Sentence boundary detection
-- Normalization
-   --Character normalization 
-   --Abbreviation substitution 
-   --Strange char, word, symbole remove
-  -- Removal of emojis
-  -- Removal of emoticons
-  -- Removal of Punctuations
-  -- Conversion of emoticons to words
-  -- Conversion of emojis to words
-- StopWord Removal
-- Noun phrase chunking
-- Lemmatization
-- Stemming 
-- Named Entity Recognition 
-- POS Tagging
-- Word-sense disambiguation
-• Co-reference resolutiony
-• Entity linking
-• Terminology extraction
-• Discourse parsing
+```
+
