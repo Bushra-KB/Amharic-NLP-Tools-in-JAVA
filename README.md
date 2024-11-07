@@ -68,3 +68,42 @@ amharic-nlp-tools-in-java/
 
 ```
 
+- `src/main/java/nlp/`: Contains the main implementation of each NLP tool.
+  - `Tokenizer.java`: Implementation of text tokenization.
+  - `SentenceSegmenter.java`: Implementation of sentence segmentation.
+  - `SentenceBoundaryDetector.java`: Implementation of sentence boundary detection.
+  - `Normalizer.java`: Implementation of text normalization.
+  - `StopWordRemover.java`: Implementation of stop word removal.
+  - `NounPhraseChunker.java`: Implementation of noun phrase chunking.
+  - `Lemmatizer.java`: Implementation of lemmatization.
+  - `Stemmer.java`: Implementation of stemming.
+  - `NER.java`: Implementation of named entity recognition.
+  - `POSTagger.java`: Implementation of part-of-speech tagging.
+  - `WordSenseDisambiguator.java`: Implementation of word-sense disambiguation.
+  - `CoReferenceResolver.java`: Implementation of co-reference resolution.
+  - `EntityLinker.java`: Implementation of entity linking.
+  - `TerminologyExtractor.java`: Implementation of terminology extraction.
+  - `DiscourseParser.java`: Implementation of discourse parsing.
+  - `SentimentAnalyzer.java`: Implementation of sentiment analysis.
+  - `TextClassifier.java`: Implementation of text classification.
+  - `LanguageModel.java`: Implementation of language modeling.
+  - `Translator.java`: Implementation of machine translation.
+- `src/test/java/nlp/`: Contains unit tests for each tool to ensure they work correctly.
+  - `NLPToolsTest.java`: Unit tests for the NLP tools.
+
+## Getting Started
+
+### Prerequisites
+
+- **Java Development Kit (JDK)**: Make sure you have JDK installed on your system. You can download it from oracle.com.
+- **Maven**: A build automation tool for Java projects. You can download it from maven.apache.org.
+
+### Installation
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/amharic-nlp-tools-in-java.git
+cd amharic-nlp-tools-in-java
+
+
