@@ -1,5 +1,5 @@
 # Amharic-NLP-Tools-in-JAVA
-## # Amharic NLP Tools in Java
+## Amharic NLP Tools in Java
 
 This repository contains implementations of various Natural Language Processing (NLP) tasks and tools specifically for the Amharic language using Java. The goal is to provide a comprehensive set of tools to facilitate NLP research and development for Amharic.
 
