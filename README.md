@@ -105,5 +105,18 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/amharic-nlp-tools-in-java.git
 cd amharic-nlp-tools-in-java
+```
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+Special thanks to the open-source community for their invaluable contributions and resources.
+
+```
+Bushra KM.
+Debre Berhan University, Ethiopia
+2019
 
