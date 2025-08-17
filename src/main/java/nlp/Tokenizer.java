@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class Tokenizer {
-
     public List<String> tokenize(String text) {
         List<String> tokens = new ArrayList<>();
         StringTokenizer tokenizer = new StringTokenizer(text);
