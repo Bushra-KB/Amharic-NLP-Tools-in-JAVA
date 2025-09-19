@@ -31,7 +31,7 @@ This repository contains implementations of various Natural Language Processing 
 - **Sentiment Analysis**: Determining the sentiment expressed in a piece of text.
 - **Text Classification**: Categorizing text into predefined categories.
 - **Language Modeling**: Building models to predict the next word in a sequence.
-- **Machine Translation**: Translating text from Amharic to other languages and vice versa
+- **Machine Translation**: Translating text from Amharic to other languages and vice versa.
 
 ## Project Structure
 ```
